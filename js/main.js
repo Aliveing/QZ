@@ -27,6 +27,8 @@ function encodeValue(e) {
         input.setAttribute('data-encode-error', 0);
         input.value = window.btoa(ASCIIArr.join(','));
         input.select();
+        input.classList.add('encode-input');
+        input.classList.remove('decode-input');
     } catch (e) {
         console.log(e);
         input.setAttribute('data-encode-error', 1);
@@ -45,6 +47,8 @@ function decodeValue(e) {
         input.setAttribute('data-encode-error', 0);
         input.value = decodeValue;
         input.select();
+        input.classList.add('decode-input');
+        input.classList.remove('encode-input');
     } catch (e) {
         console.log(e);
         input.setAttribute('data-encode-error', 1);
