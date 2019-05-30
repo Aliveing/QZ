@@ -1,0 +1,64 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #2a2f42;
+}
+
+.content {
+    height: 5em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+div.write-div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[data-encode-error=1]{
+    background: tomato;
+    color: white;
+} 
+
+input.write-input {
+    width: 90%;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 50px #ccc;
+    font-size: 1em;
+    text-align: center;
+}
+
+div.write-btn {}
+
+div.write-btn>div {
+    display: inline-block;
+    width: 30%;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: white;
+}
+
+div.encode-btn {
+    background: tomato;
+    box-shadow: 0 0 10px tomato;
+}
+
+div.decode-btn {
+    background: seagreen;
+    box-shadow: 0 0 10px seagreen;
+}
+
+input.result-input {
+    margin: 0 auto;
+}
