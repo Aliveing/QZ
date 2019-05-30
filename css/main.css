@@ -18,9 +18,14 @@ body {
     margin: auto;
 }
 
-div.write-div {
+div.input-div{
     margin: 0 auto;
     text-align: center;
+    width: 90%;
+}
+
+div.write-div {
+
 }
 
 input[data-encode-error=1]{
